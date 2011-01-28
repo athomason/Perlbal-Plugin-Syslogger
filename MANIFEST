@@ -8,3 +8,4 @@ META.yml			Module meta-data (added by MakeMaker)
 README
 t/00-compile.t
 t/01-plugin.t
+t/lib/Perlbal/Plugin/TestPlugin.pm
