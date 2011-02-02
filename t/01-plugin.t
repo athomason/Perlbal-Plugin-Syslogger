@@ -72,5 +72,3 @@ if (ok(scalar(@readable), 'syslog got messages')) {
         like($msgs[6], qr/^<173>.*localhost explicit\[\d+\]: handling request in TestPlugin$/, 'logged in request');
     }
 }
-
-1;
